@@ -10,7 +10,17 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+/* 
+#8E8E8E
+#606060
+#80251F 
+*/
+
 :root {
+  --theme-one: #8E8E8E;
+  --theme-two: #606060;
+  --theme-three: #80251F;
   --bs-blue: #0061f2;
   --bs-indigo: #5800e8;
   --bs-purple: #6900c7;
@@ -3094,8 +3104,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0061f2;
-  border-color: #0061f2;
+  background-color: #606060;
+  border-color: #606060;
 }
 .btn-primary:hover {
   color: #fff;
@@ -10316,7 +10326,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #0061f2 !important;
+  color: #606060 !important;
 }
 
 .text-secondary {
@@ -10436,7 +10446,7 @@ textarea.form-control-lg {
 }
 
 .text-primary-soft {
-  color: #dae7fb !important;
+  color: #606060 !important;
 }
 
 .text-secondary-soft {
@@ -19168,7 +19178,10 @@ body {
 }
 .pagination-blog .page-item:first-child {
   margin-left: 0;
-}
+}#8E8E8E
+#606060
+
+#80251F
 .pagination-blog .page-item:last-child {
   margin-right: 0;
 }
