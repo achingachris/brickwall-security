@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
 import Head from 'next/head'
@@ -175,7 +176,7 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        {/* App features section*/}
+        {/* App features section */}
         <section id='features'>
           <div className='container px-5'>
             <div className='row gx-5 align-items-center'>
@@ -186,10 +187,14 @@ export default function Home() {
                       {/* Feature item*/}
                       <div className='text-center'>
                         <i className='bi-phone icon-feature text-gradient d-block mb-3' />
-                        <h3 className='font-alt'>Device Mockups</h3>
+                        <h3 className='font-alt'>
+                          Managed Security Operation Center (SOC) as a Service
+                        </h3>
                         <p className='text-muted mb-0'>
-                          Ready to use HTML/CSS device mockups, no Photoshop
-                          required!
+                          We offer 24/7 proactive monitoring and analysis of
+                          your security events. Our SOC team is ready to respond
+                          to any detected threats, providing guidance for
+                          effective mitigation and remediation.
                         </p>
                       </div>
                     </div>
@@ -197,10 +202,14 @@ export default function Home() {
                       {/* Feature item*/}
                       <div className='text-center'>
                         <i className='bi-camera icon-feature text-gradient d-block mb-3' />
-                        <h3 className='font-alt'>Flexible Use</h3>
+                        <h3 className='font-alt'>
+                          Digital Forensics and Incident Response (DFIR)
+                        </h3>
                         <p className='text-muted mb-0'>
-                          Put an image, video, animation, or anything else in
-                          the screen!
+                          Our dedicated incident response team assists with
+                          swift and effective response to security incidents,
+                          offering expert support and guidance to ensure a quick
+                          recovery and minimal disruption to your business.
                         </p>
                       </div>
                     </div>
@@ -210,10 +219,14 @@ export default function Home() {
                       {/* Feature item*/}
                       <div className='text-center'>
                         <i className='bi-gift icon-feature text-gradient d-block mb-3' />
-                        <h3 className='font-alt'>Free to Use</h3>
+                        <h3 className='font-alt'>
+                          Threat Intelligence and Threat Hunting
+                        </h3>
                         <p className='text-muted mb-0'>
-                          As always, this theme is free to download and use for
-                          any purpose!
+                          We provide both real-time and historical threat
+                          investigation, helping you understand your potential
+                          threats and implement the most effective security
+                          measures to protect your valuable assets
                         </p>
                       </div>
                     </div>
@@ -221,10 +234,14 @@ export default function Home() {
                       {/* Feature item*/}
                       <div className='text-center'>
                         <i className='bi-patch-check icon-feature text-gradient d-block mb-3' />
-                        <h3 className='font-alt'>Open Source</h3>
+                        <h3 className='font-alt'>
+                          Security Training and Awareness
+                        </h3>
                         <p className='text-muted mb-0'>
-                          Since this theme is MIT licensed, you can use it
-                          commercially!
+                          We offer a comprehensive range of cybersecurity
+                          training services, designed to educate your staff
+                          about the importance of cybersecurity and the best
+                          practices to maintain a secure working environment.
                         </p>
                       </div>
                     </div>
@@ -316,13 +333,16 @@ export default function Home() {
             <div className='row gx-5 align-items-center justify-content-center justify-content-lg-between'>
               <div className='col-12 col-lg-5'>
                 <h2 className='display-4 lh-1 mb-4'>
-                  Enter a new age of web design
+                  Secure Your Digital Future with Brickwall Security Today!
                 </h2>
                 <p className='lead fw-normal text-muted mb-5 mb-lg-0'>
-                  This section is perfect for featuring some information about
-                  your application, why it was built, the problem it solves, or
-                  anything else! There's plenty of space for text here, so don't
-                  worry about writing too much.
+                  Don't leave your cybersecurity to chance. Secure your business
+                  with Brickwall Security today! In an ever-evolving digital
+                  landscape, staying one step ahead is crucial. With our suite
+                  of comprehensive services, we offer the robust, tailor-made
+                  solutions that your business needs to thrive safely and
+                  confidently. Get in touch with us today and let's fortify your
+                  digital world together.
                 </p>
               </div>
               <div className='col-sm-8 col-md-6'>
@@ -342,50 +362,27 @@ export default function Home() {
           <div className='cta-content'>
             <div className='container px-5'>
               <h2 className='text-white display-1 lh-1 mb-4'>
-                Stop waiting.
+                Brickwall Security:
                 <br />
-                Start building.
+                Guarding Your Digital Domain.
               </h2>
               <a
                 className='btn btn-outline-light py-3 px-4 rounded-pill'
                 href='https://startbootstrap.com/theme/new-age'
                 target='_blank'
               >
-                Download for free
+                Contact Us Now
               </a>
             </div>
           </div>
         </section>
-        {/* App badge section*/}
-        <section className='bg-gradient-primary-to-secondary' id='download'>
-          <div className='container px-5'>
-            <h2 className='text-center text-white font-alt mb-4'>
-              Get the app now!
-            </h2>
-            <div className='d-flex flex-column flex-lg-row align-items-center justify-content-center'>
-              <a className='me-lg-3 mb-4 mb-lg-0' href='#!'>
-                <img
-                  className='app-badge'
-                  src='assets/img/google-play-badge.svg'
-                  alt='...'
-                />
-              </a>
-              <a href='#!'>
-                <img
-                  className='app-badge'
-                  src='assets/img/app-store-badge.svg'
-                  alt='...'
-                />
-              </a>
-            </div>
-          </div>
-        </section>
+       
         {/* Footer*/}
         <footer className='bg-black text-center py-5'>
           <div className='container px-5'>
             <div className='text-white-50 small'>
               <div className='mb-2'>
-                © Your Website 2023. All Rights Reserved.
+                © BrickWall Security 2023. All Rights Reserved.
               </div>
               <a href='#!'>Privacy</a>
               <span className='mx-1'>·</span>
